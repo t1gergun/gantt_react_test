@@ -1,0 +1,28 @@
+.task_wrapper {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    border-bottom: 1px solid rgba(38, 40, 66, 0.12);
+    gap: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.task_sub_counter {
+    font-size: 12px;
+    color: #8B8C9E;
+}
+
+.task_arrow_icon {
+    cursor: pointer;
+}
+
+.rotated {
+    transform: scaleY(-1);
+}
+
+.spacer {
+    width: 16px;
+}

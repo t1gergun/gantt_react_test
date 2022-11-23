@@ -1,0 +1,19 @@
+.header {
+    font-size: 24px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.export_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(38, 40, 66, 0.12);
+    border-radius: 10px;
+    gap: 12px;
+    background: none;
+    cursor: pointer;
+}

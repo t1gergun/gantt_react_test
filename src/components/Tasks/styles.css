@@ -1,0 +1,14 @@
+.empty_task_row {
+    height: 48px;
+    border-top: 1px solid rgba(38, 40, 66, 0.12);
+    border-right: 1px solid rgba(38, 40, 66, 0.12);
+    border-left: 1px solid rgba(38, 40, 66, 0.12);
+    border-radius: 10px 0px 0px 0px;
+    font-size: 14px;
+    color: #6D6E85;
+    box-sizing: border-box;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    background: #F7F8FC;
+}

@@ -1,0 +1,13 @@
+.grid_container {
+    display: grid;
+    grid-template-columns: 390px 1fr;
+    position: relative;
+}
+
+.gantt_fadeout {
+    position: absolute;
+    background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(146,158,168,0) 0%, rgba(146,158,168,0.2497373949579832) 100%);
+    right: 0;
+    width: 10px;
+    z-index: 2;
+}

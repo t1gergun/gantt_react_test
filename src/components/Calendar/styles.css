@@ -1,0 +1,65 @@
+.gantt_time_period {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(22px, 1fr);
+    grid-auto-rows: minmax(24px, 1fr);
+    text-align: center;
+    height: 24px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.gantt_time_period_span {
+    height: fit-content;
+}
+
+.bordered {
+    border-bottom: 1px solid rgba(38, 40, 66, 0.12);
+    border-right: 1px solid rgba(38, 40, 66, 0.12);
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F7F8FC;
+}
+
+.full_bordered {
+    border-top: 1px solid rgba(38, 40, 66, 0.12);
+    border-right: 1px solid rgba(38, 40, 66, 0.12);
+    border-bottom: 1px solid rgba(38, 40, 66, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F7F8FC;
+
+}
+
+.gant_time_period_cell {
+    position: relative;
+    border-right: 1px solid rgba(38, 40, 66, 0.12);
+    height: 40px;
+}
+
+.gant_grid_container_time {
+    display: grid;
+    overflow: auto;
+}
+
+.task_duration {
+    box-sizing: border-box;
+    height: 24px;
+    background: #E2EBFF;
+    border: 1px solid #497CF6;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+}
+
+.task_duration_container {
+    display: flex;
+    position: absolute;
+    top: 9px;
+    z-index: 1;
+    width: 300px;
+    align-items: center;
+    gap: 8px;
+}
